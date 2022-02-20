@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Oswald&family=Poppins&family=Roboto:wght@100;300;400&display=swap');
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,black 50%, orange 90%, black 100%);
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.imagem-cabecalho{
+    height: 70px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+.banner{
+    background: linear-gradient(68.15deg,black 15%, orange 70%, black 90%);
+    margin-bottom: 5px;
+    border-top:1px solid orange;
+}
+.banner-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner-subtitulo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:70px ;
+    color: aliceblue;
+}
+.banner-subtitulo2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:25px ;
+    color: aliceblue;
+}
+
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+    margin-top: 50px;
+}
+.conteudo-subtitulo{
+padding-top: 1px;
+font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(158, 105, 86);
+    margin-bottom: 1px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+rodape-image1{
+    height: 25px;
+}
+.rodape-image2{
+    height: 35px;
+}
+
+.conteudo-rodape{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:15px ;
+    color: aliceblue;
+}

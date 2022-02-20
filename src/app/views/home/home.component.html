@@ -1,0 +1,41 @@
+
+
+<main class="banner">
+    <section class="banner-principal">
+        <div class="banner-principal-texto">
+            <h1 class="banner-subtitulo">Gamemania</h1>
+            <h2 class="banner-subtitulo2">A melhor loja de games da internet</h2>
+            <button class="login">Login</button>
+            <button class="cadastro">Cadastre-se</button>   
+            <form action="">
+              <input id="campo email" type="email" placeholder="E-mail" required>
+              <button onclick="cadastrarEmail()">Newsletter</button>
+            </form>          
+        </div>
+        <img class="banner-imagem" src="/assets/img/estacaoGamer1.svg" alt="EstaçãoJogo">
+
+    </section>
+
+    <div class="container">
+      <div class="card" data-tilt="">
+          <div class="content">
+            <div *ngFor="let produtonovo of listaProdutos" class="container">
+               <h5> {{produtonovo.titulo}}</h5>
+               <h6> {{produtonovo.Ofertas}}</h6>
+               <p> {{produtonovo.Descricao}}</p>
+               <img class="novosProdutos" src="assets/img/Catálogo-de-Produtos-de-Informática-01-686x360.jpg">
+            </div>
+          </div>
+      </div>
+    </div>  
+           
+        
+   
+    <section class="conteudo">
+      <h3 class="conteudo-subtitulo">Venha <strong>fazer parte</strong> do nosso <strong>time!!!</strong></h3>
+      <p class="conteudo-paragrafo"><strong>Amplie seu campo de visão</strong> com monitores curvos QHD.</p>
+      <p class="conteudo-paragrafo"> Desktops: <strong>poderosos, velozes, preços  baratos e  promoções.</strong></p>
+      <p class="conteudo-paragrafo"> <strong>Ganhe mobilidade</strong> com nossa linha de notebooks gamer.</p>
+    </section>
+  </main>
+

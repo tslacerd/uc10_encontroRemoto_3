@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "tiago@gmail.com",
+      "password": "$2a$10$GW9qkamBDlWXzkwN4lR0zuJV2xtK/TRIrYSG6JydH3fZDBhK2Mu7y",
+      "usuário": "TiagoL",
+      "id": 1
+    }
+  ],
+  "novosProdutos": [
+    {
+      "id": 1,
+      "Título": "Como escolher um  notebook para seu nível no mundo gamer?",
+      "Descrição": "Descrição do texto relacionado ao título",
+      "Ofertas relacionadas": "Ofertas relacionadas ao texto ",
+      "Imagem": "assets/img/Catálogo-de-Produtos-de-Informática-01-686x360.jpg"
+    },
+    {
+      "id": 2,
+      "Título": "Smartphones Gamer: valem o dinheiro empregado?",
+      "Descrição": "Descrição do texto relacionado ao título",
+      "Ofertas relacionadas": "Ofertas relacionadas ao texto ",
+      "Imagem": "assets/img/Catálogo-de-Produtos-de-Informática-01-686x360.jpg"
+    },
+    {
+      "id": 3,
+      "Título": "Você entende sobre acessórios para gamers?",
+      "Descrição": "Descrição do texto relacionado ao título",
+      "Ofertas relacionadas": "Ofertas relacionadas ao texto ",
+      "Imagem": "assets/img/Catálogo-de-Produtos-de-Informática-01-686x360.jpg"
+    },
+    {
+      "id": 4
+    }
+  ]
+}

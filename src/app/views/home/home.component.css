@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,black 15%, orange 70%, black 90%);
+}
+
+
+.cabecalho{
+    background: linear-gradient(68.15deg,black 15%, orange 70%, black 90%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.imagem-cabecalho{
+    height: 70px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 70px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+.banner{
+    margin-bottom: 50px;
+    border-top:1px solid aliceblue;
+}
+.banner-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner-subtitulo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:70px ;
+    color: aliceblue;
+}
+.banner-subtitulo2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:25px ;
+    color: aliceblue;
+}
+.login{
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: orange;
+}
+
+.login:hover{
+    background-color: rgb(112, 48, 23);
+
+}
+.cadastro{
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: orange; 
+}
+.cadastro:hover{
+background-color: brown;
+}
+
+    
+.conteudo{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:25px;
+    margin-top: 50px;
+}
+
+.conteudo-subtitulo{
+border-top: 1px solid aliceblue;
+padding-top: 50px;
+font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: orangered;
+    margin-bottom: 15px;
+}
+.conteudo-paragrafo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:aliceblue;
+    margin-bottom: 15px;
+    }
+
+
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1920px;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
+    
+    .container .card{
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 30px;
+        box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+        border-radius: 15px;
+        background: rgba(161, 144, 144, 0.5);
+        overflow: hidden;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        border-top: 1px solid rgba(0,0,0,0.5);
+        border-left: 1px solid rgba(0,0,0,0.5);
+    }
+    
+    .container .card .content{
+        padding: 20px;
+        text-align: center;
+        transform: translate(100px);
+        opacity: 0;
+        transition: 0,5s;
+    }
+    
+    .container .card:hover .content{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+    .container .card .content h5 {
+        position: absolute;
+        text-align: center;
+        top: -80px;
+        right: 30px;
+        font-size:30px;
+        color: rgb(235, 203, 144);
+        pointer-events:none;
+    }
+    
+    .container .card .content h6{
+        font-size: 25px;
+        color: aliceblue;
+        z-index:1;
+        text-align: center;
+    }
+    
+    .container .card .content p{
+        font-size: 1em;
+        color:aliceblue;
+        font-weight: 300;
+    }
+    
+    
+    .container .card .content a {
+        position: relative;
+        display: inline-block;
+        padding:8px 20px;
+        margin-top: 15px;
+        background: rgb(128, 112, 112);
+        color: aliceblue;
+        text-decoration: none;
+        border-radius: 20px;
+        font-weight: 500;
+        box-shadow: 0,0,0,0.2;
+    }
+    
+    .novosProdutos{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        height: 150px;
+    }

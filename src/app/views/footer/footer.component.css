@@ -1,0 +1,22 @@
+.rodape{
+    background: linear-gradient(68.15deg,black 15%, orange 70%, black 90%);
+    padding: 32px;
+    border-top: 1px solid aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+rodape-image1{
+    height: 25px;
+}
+.rodape-image2{
+    height: 35px;
+}
+
+.conteudo-rodape{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size:15px ;
+    color: aliceblue;
+}
